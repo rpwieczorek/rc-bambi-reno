@@ -45,9 +45,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 32px;
 }
 
@@ -1001,9 +1001,9 @@
     position: absolute;
     padding-top: 60px;
     height: 100%;
-    width: 100%;
+    width: 50%;
     top: 50%;
-    left: 10px;
+    left: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
