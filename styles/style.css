@@ -675,10 +675,14 @@
 #es-loreal.es-loreal .es-formula__content {
   margin-bottom: 32px;
 }
+#es-loreal.es-loreal .es-formula__container {
+  margin: auto;
+  align-items: center;
+}
 
 #es-loreal.es-loreal .es-formula__title {
   margin: 0;
-  padding: 0;
+  padding-top: 40px;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
@@ -691,7 +695,7 @@
 }
 
 #es-loreal.es-loreal .es-formula__text {
-  margin: 0;
+  margin: auto;
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -720,19 +724,6 @@
   -webkit-box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.06);
           box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.06);
 }
-
-#es-loreal.es-loreal .es-formula__sub {
-  width: 160px;
-  transform: translate(170%, -55%);
-  background-color: white;
-  border-radius: 16px;
-  padding: 25px;
-  font-size: 30px;
-  font-weight: 700;
-  -webkit-box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.06);
-          box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.06);
-}
-
 
 #es-loreal.es-loreal .es-formula__item strong {
   text-transform: uppercase;
@@ -1074,6 +1065,7 @@
  
   }
   #es-loreal.es-loreal .es-ba__container {
+    padding: 0 5%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row;
