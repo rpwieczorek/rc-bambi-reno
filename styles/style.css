@@ -352,6 +352,84 @@
   font-family: inherit;
   font-weight: inherit;
 }
+
+#es-loreal.es-loreal .es-ba {
+  padding: 56px 16px 32px 16px;
+}
+
+#es-loreal.es-loreal .es-ba__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  align-items: center;
+  gap: 32px;
+}
+
+#es-loreal.es-loreal .es-ba__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+#es-loreal.es-loreal .es-ba__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+#es-loreal.es-loreal .es-ba__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+}
+
+#es-loreal.es-loreal .es-ba__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-ba__photo {
+  position: relative;
+}
+
+#es-loreal.es-loreal .es-ba__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 #es-loreal.es-loreal .es-slider {
   padding: 56px 16px 32px 16px;
 }
@@ -995,7 +1073,37 @@
         flex-basis: 50%;
  
   }
-
+  #es-loreal.es-loreal .es-ba__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  #es-loreal.es-loreal .es-ba__content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  #es-loreal.es-loreal .es-ba__wrapper {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  #es-loreal.es-loreal .es-ba__photo img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
   #es-loreal.es-loreal .es-info__title {
     font-size: 40px;
   }
